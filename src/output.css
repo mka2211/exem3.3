@@ -789,6 +789,9 @@
     --tw-tracking: var(--tracking-wider);
     letter-spacing: var(--tracking-wider);
   }
+  .text-\[white\] {
+    color: white;
+  }
   .text-blue-400 {
     color: var(--color-blue-400);
   }

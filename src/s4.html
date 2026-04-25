@@ -210,6 +210,69 @@
 
         </div>
     </div>
+    <section class="bg-black p-4 md:p-8 lg:relative lg:left-[-200px]">
+    <div class="max-w-3xl mx-auto bg-[#0f0f0f] border border-white/5 rounded-[2rem] p-8 md:p-12 shadow-2xl">
+        
+        <h2 class="text-white text-2xl font-bold mb-8">Apply Now</h2>
+
+        <form class="space-y-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <input type="text" placeholder="First Name*" 
+                    class="w-full bg-[#1a1a1a] border border-white/5 rounded-xl p-4 text-gray-300 placeholder-gray-600 focus:outline-none">
+                <input type="text" placeholder="Last Name*" 
+                    class="w-full bg-[#1a1a1a] border border-white/5 rounded-xl p-4 text-gray-300 placeholder-gray-600 focus:outline-none ">
+            </div>
+
+            <input type="email" placeholder="Email*" 
+                class="w-full bg-[#1a1a1a] border border-white/5 rounded-xl p-4 text-gray-300 placeholder-gray-600 focus:outline-none ">
+
+            <input type="text" placeholder="Headline (Optional)" 
+                class="w-full bg-[#1a1a1a] border border-white/5 rounded-xl p-4 text-gray-300 placeholder-gray-600 focus:outline-none">
+
+            <div class="flex bg-[#1a1a1a] border border-white/5 rounded-xl overflow-hidden ">
+                <div class="flex items-center gap-2 px-4 border-r border-white/5 bg-white/5 cursor-pointer">
+                    <span class="text-lg"><img class="w-[30px] h-[20px]" src="./circle-flags_us.png" alt=""></span>
+                    <span class="text-gray-300 text-sm">+1</span>
+                    <span class="text-gray-600 text-[10px]">▼</span>
+                </div>
+                <input type="tel" placeholder="Phone Number" 
+                    class="w-full bg-transparent p-4 text-gray-300 placeholder-gray-600 focus:outline-none">
+            </div>
+
+            <textarea placeholder="Application Submission" rows="5" 
+                class="w-full bg-[#1a1a1a] border border-white/5 rounded-xl p-4 text-gray-300 placeholder-gray-600 "></textarea>
+
+            <div class="relative group">
+                <div class="border-2 border-dashed border-white/10 rounded-2xl p-10 flex flex-col items-center justify-center bg-white/[0.01] ">
+                    <svg class="w-6 h-6 text-gray-500 mb-2 group-hover:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                    </svg>
+                    <p class="text-sm text-gray-500">
+                        Drag & Drop File Here or <span class="text-blue-500 font-medium">Browse File</span>
+                    </p>
+                    <input type="file" class="absolute inset-0 opacity-0 cursor-pointer">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-start py-2">
+                <div class="bg-white rounded-md p-2 flex items-center gap-4 shadow-lg scale-90 origin-left">
+                    <input type="checkbox" class="w-5 h-5 accent-blue-500">
+                    <span class="text-gray-800 text-sm font-medium">Verify you are human</span>
+                    <div class="border-l pl-4 flex flex-col items-center">
+                        <img src="./Logo (6).png" class="h-4 bg-[black]" alt=" ">
+                        <span class="text-[8px] text-gray-400 uppercase">Privacy • Terms</span>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" 
+                class="w-full bg-blue-600  text-white font-bold py-4 rounded-2xl transition-all duration-300 shadow-xl shadow-blue-600/20 ">
+                Submit Application
+            </button>
+        </form>
+        
+    </div>
+</section>
 </body>
 
 </html>

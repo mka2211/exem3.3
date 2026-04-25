@@ -1155,6 +1155,9 @@
   .text-left {
     text-align: left;
   }
+  .text-start {
+    text-align: start;
+  }
   .font-sans {
     font-family: var(--font-sans);
   }
